@@ -1,2 +1,2 @@
-# phonichouse
+# Phonichouse
 Repository for Phonichouse application.
