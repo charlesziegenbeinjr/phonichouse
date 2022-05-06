@@ -1,0 +1,40 @@
+.FeedParentDiv {
+  background-color: white;
+  width: 290px;
+  height: 210px;
+  border-radius: 10px;
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+  /* position: fixed; */
+  padding-bottom: 200px;
+  /* overflow: hidden; */
+}
+.Feedcn {
+  width: 270px;
+  height: 300px;
+  background: white;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  overflow: scroll;
+}
+.inner {
+  display: inline-block;
+  width: 260px;
+  /* height: 80px; */
+  background: #eaf0fb;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+}
+/* div {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+  overflow-y: scroll;
+} */
+
+div::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}

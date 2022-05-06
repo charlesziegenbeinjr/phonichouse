@@ -1,0 +1,25 @@
+.bodyAP{
+    background-color: #E5E5E5;
+}
+
+.newArtistFeedAP{
+    margin-left: 1330px;
+    margin-right: 50px;
+    margin-top: 1000px;
+}
+
+.div1AP{
+    /* background-color: bisque; */
+    width: 900px;
+    height: 750px;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+.div2AP{
+    /* background-color: bisque; */
+    width: 300px;
+    height: 750px;
+    margin-left: 40px;
+    margin-top: 30px;
+}

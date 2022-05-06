@@ -1,0 +1,90 @@
+.parentDivCc{
+    background-color: #fff;
+    height: 800px;
+    width: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #081041;
+}
+
+.rowCc{
+    display: flex;
+    flex: row;
+}
+
+.rowCc1{
+    display: flex;
+    flex: row;
+    margin-top: 20px;
+}
+
+.rowCc2{
+    display: flex;
+    flex: row;
+    margin-top: 20px;
+}
+
+.rowCc3{
+    display: flex;
+    flex: row;
+    margin-top: 20px;
+}
+
+.graphCc{
+    margin-left: 40px;
+}
+.graphCc0{
+    margin-left: 40px;
+    margin-top:10px;
+}
+
+.cardGraphCc{
+    background-color: #081041;
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.cardGraphCc2{
+    background-color: #081041;
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.spanCc{
+    color: #081041;
+    margin-left: 90px;
+    /* margin-top: 40px; */
+    font-size: 80%;
+}
+
+.spanCc2{
+    color: #081041;
+    /* margin-top:10px; */
+    margin-left: 40px;
+    font-size: 70%;
+}
+
+.spanCc3{
+    color:#ff6347;
+    margin-top:10px;
+    margin-left: 10px;
+    font-size: 70%
+}
+
+.spanCc4{
+    color:#ffffff;
+    /* margin-top:10px; */
+    margin-left: 10px;
+    font-size: 80%
+}
+
+.spanCc5{
+    color:#081041;
+    margin-top:3px;
+    margin-left: 40px;
+    font-size: 80%;
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "Artist": "ABCDI",
+    "Price": "140.34",
+    "Qty": "10",
+    "Cost Basis": "124.86"
+  },
+  {
+    "Artist": "EFGH2",
+    "Price": "54.34",
+    "Qty": "23",
+    "Cost Basis": "124.86"
+  },
+  {
+    "Artist": "IJK34",
+    "Price": "124.34",
+    "Qty": "50",
+    "Cost Basis": "124.86"
+  },
+  {
+    "Artist": "LMNO5",
+    "Price": "1983.34",
+    "Qty": "11",
+    "Cost Basis": "124.86"
+  },
+  {
+    "Artist": "PQR56",
+    "Price": "1402.34",
+    "Qty": "12",
+    "Cost Basis": "124.86"
+  },
+  {
+    "Artist": "TUVWZ",
+    "Price": "1220.34",
+    "Qty": "4",
+    "Cost Basis": "124.86"
+  }
+]

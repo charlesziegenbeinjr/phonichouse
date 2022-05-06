@@ -1,0 +1,15 @@
+.ContainerForDropDowns {
+  display: flex; /* establish flex container */
+  flex-direction: row; /* default value; can be omitted */
+  flex-wrap: nowrap;
+  margin-left: 500px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.containerBelowCards {
+  display: flex; /* establish flex container */
+  flex-direction: row; /* default value; can be omitted */
+  flex-wrap: nowrap;
+  margin-left:427px;
+  margin-top: 20px;
+}
