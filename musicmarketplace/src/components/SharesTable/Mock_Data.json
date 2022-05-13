@@ -1,0 +1,58 @@
+[
+  {
+    "Symbol": "Jill",
+    "Artist": "Jill",
+    "Weight": "19.7%",
+    "Genre": "Country",
+    "Share Price": "125.42",
+    "YTD": "+ 12.0%"
+  },
+  {
+    "Symbol": "LWTRB",
+    "Artist": "Lauren Weintraub",
+    "Weight": "19.7%",
+    "Genre": "Rock",
+    "Share Price": "84.31",
+    "YTD": "+ 7.0%"
+  },
+  {
+    "Symbol": "DOODY",
+    "Artist": "Doodie Lo",
+    "Weight": "22.1%",
+    "Genre": "Hip-Hop",
+    "Share Price": "143.42",
+    "YTD": "+ 12.0%"
+  },
+  {
+    "Symbol": "SJAMS",
+    "Artist": "Shawn James",
+    "Weight": "19.7%",
+    "Genre": "Folk",
+    "Share Price": "64.11",
+    "YTD": "+ 2.4.0%"
+  },
+  {
+    "Symbol": "DJACK",
+    "Artist": "Darian Lacky",
+    "Weight": "5.7%",
+    "Genre": "Pop",
+    "Share Price": "36.82",
+    "YTD": "+ 2.7%"
+  },
+  {
+    "Symbol": "BOOKA",
+    "Artist": "Booka 600",
+    "Weight": "6.5%",
+    "Genre": "Hip-Hop",
+    "Share Price": "42.42",
+    "YTD": "+ 10.0%"
+  },
+  {
+    "Symbol": "Jill",
+    "Artist": "Jill",
+    "Weight": "19.7%",
+    "Genre": "Country",
+    "Share Price": "125.42",
+    "YTD": "+ 12.0%"
+  }
+]

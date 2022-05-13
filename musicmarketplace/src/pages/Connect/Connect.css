@@ -1,0 +1,31 @@
+.bodyC{
+    background-color: #E5E5E5;
+}
+
+.div1C{
+    /* background-color: bisque; */
+    width: 750px;
+    height: 750px;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+.div2C{
+    /* background-color: bisque; */
+    width: 300px;
+    height: 750px;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+.spotifyC{
+    width: 400px;
+    height: 100px;
+    margin-left: 70px;
+    background-color: #fff;
+    margin-top: 40px;
+    border: solid;
+    border-radius: 10px;
+    border-width: 2px;
+
+}

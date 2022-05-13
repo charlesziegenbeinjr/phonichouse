@@ -1,0 +1,43 @@
+#ChatOnNavbarParentDiv {
+  /* position: absolute; */
+  width: 140.48px;
+  height: 190.21px;
+  left: 20.76px;
+  top: 743.27px;
+
+  /* background-color: black; */
+
+  background: linear-gradient(
+    180deg,
+    #ff7978 0%,
+    rgba(255, 121, 120, 0.5) 26.56%,
+    rgba(255, 121, 120, 0.5) 40.1%,
+    rgba(255, 121, 120, 0.5) 56.77%,
+    rgba(255, 121, 120, 0.5) 73.44%,
+    rgba(255, 121, 120, 0.5) 89.58%
+  );
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+#ChatOnNavbarFeedCn {
+  width: 120px;
+  height: 180.21px;
+  /* background: white; */
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* overflow: scroll; */
+}
+.ChatOnNavBarInner {
+  display: inline-block;
+  width: 120px;
+  /* height: px; */
+  /* background: #eaf0fb; */
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 5;
+}

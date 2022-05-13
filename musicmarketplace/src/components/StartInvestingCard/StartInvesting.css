@@ -1,0 +1,63 @@
+.StartInvestingParentDiv {
+  background-color: white;
+  width: 840px;
+  height: 200px;
+  border-radius: 10px;
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+  position: relative;
+  padding-bottom: 200px;
+  font-family: sans-serif;
+}
+#StartInvestingButton {
+  width: 150px;
+  padding: 7px;
+  background-color: #1b2566;
+  color: white;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: medium;
+}
+#SI-ButtonAndText {
+  margin-top: 13px;
+  margin-right: 18px;
+  float: right;
+}
+#SI-CardContent {
+  float: left;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+#SI-SliderDiv {
+  background-color: white;
+  width: 150px;
+  height: 248px;
+  border-radius: 10px;
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#sliderDivInside {
+  display: flex;
+  flex-direction: row;
+}
+#slider {
+  height: 200px;
+  width: 30px;
+  color: #1b2566;
+  border-radius: 20px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(84, 255, 71, 1) 0%,
+    rgba(250, 248, 248, 0.958420868347339) 55%,
+    rgba(249, 202, 202, 1) 100%
+  );
+
+  /* height: "200px",
+    width: "60px",
+    color: "#1b2566",
+    background: "black",
+    borderRadius: "20px", */
+}

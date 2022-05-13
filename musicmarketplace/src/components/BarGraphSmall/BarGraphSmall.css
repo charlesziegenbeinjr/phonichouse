@@ -1,0 +1,10 @@
+.myDivGraphBGS {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+  
+    width: 200px;
+    height: 200px;
+  
+    margin-bottom: 20px;
+}
