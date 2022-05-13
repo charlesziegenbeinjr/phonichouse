@@ -6,7 +6,7 @@ import Search from "./pages/Search/Search";
 import Explore from "./pages/Explore/Explore";
 import MainChat from "./components/Messages/mainchat/mainchat";
 import Connect from "./pages/Connect/Connect";
-import ArtistPage from './pages/artistPage/artistPage';
+// import ArtistPage from './pages/artistPage/artistPage';
 import ExistingArtistPage from './pages/existingArtistPage/existingArtistAPage';
 import OrderDetailsSecond from "./components/OrderDetails/orderdetailssecond";
 import OrderDetails from "./components/OrderDetails/orderdetails"
@@ -39,7 +39,8 @@ function App() {
             <Route path="/ramishPage" element={<OrderDetailsSecond />} />
             <Route path="/connect" element={<Connect />} />
             <Route path="/messages" element={<Messages />} />
-            <Route path="/newArtist" element={<ArtistPage />} />
+            {/* <Route path="/newArtist" element={<ArtistPage />} /> */}
+            {/* NEED TO FIX THIS */}
             <Route path="/existingArtist" element={<ExistingArtistPage />} />
             <Route path="/placeOrder" element={<OrderDetails />} />
             <Route path="/artistData" element={<OrderDetailsSecond />} />

@@ -15,7 +15,7 @@ export default function BasicTable() {
     footerGroups,
     rows,
     prepareRow,
-  } = useTable({
+  } = window.ReactTable.useTable({
     columns,
     data,
   });

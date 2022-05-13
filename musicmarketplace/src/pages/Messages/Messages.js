@@ -57,7 +57,8 @@ export default function Messages() {
           </div>
           {/* <SendNewMessage /> */}
           <div style={{ marginTop: "40px" }}>
-            <MessageSide />
+            {/* <MessageSide /> */}
+            {/* NEED TO FIX THIS */}
           </div>
         </div>
         <MainChat
