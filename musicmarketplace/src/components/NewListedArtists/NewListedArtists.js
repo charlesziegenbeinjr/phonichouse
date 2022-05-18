@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-// import { useTable } from "react-table";
+import { useTable } from "react-table";
 import MOCK_DATA from "./Mock_Data.json";
 import { COLUMNS } from "./columns.js";
 import "./NewListedArtists.css";
@@ -15,7 +15,7 @@ export default function BasicTable() {
     footerGroups,
     rows,
     prepareRow,
-  } = window.ReactTable.useTable({
+  } = useTable({
     columns,
     data,
   });
