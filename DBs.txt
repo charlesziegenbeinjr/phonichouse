@@ -1,0 +1,10 @@
+The top three databases for large data would be Cassandra, HBase, MongoDB. But
+after careful reasearch I'm in between Cassandra and MongoDB. HBase has general 
+better performancethan Cassandra and is less complex, but Cassandra is faster due to its 
+consistent hashing for data partitioning and distribution. If support for a query language 
+is required, Apache Cassandra should be preferred over MongoDB. If we need a flexible model
+with efficient secondary indexes, MongoDB would be a better solution.
+
+
+As for Backend Framework interface for React.js, I would say Django because it has better 
+security than Node.js
