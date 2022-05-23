@@ -1,0 +1,5 @@
+server - nginx: better performance than apache
+backend - ruby on rails: Many plugins. Strict mechanisms to ensure safety of code and database. Helps with rapid development of prototypes. Good if website needs real-time updates after it is live. Slightly                          faster. Can be used with any database. Easily deployable with heruko.
+        - django: Uses python. Has some built-in support for postgresql or mysql. Used for data-heavy and large-scale websites. Has REST framework. High scalability. Better documentation
+db - mongodb: good document-oriented nosql. fast and easy data retrieval
+   - postgresql: support from django. good if need object-relational sql. can store data in json format too
