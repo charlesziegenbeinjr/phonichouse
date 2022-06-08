@@ -27,10 +27,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+AUTH_USER_MODEL = 'musicmarketplace_backend.User'
 
 # Application definition
 
 INSTALLED_APPS = [
+    'musicmarketplace_backend',
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -69,15 +72,19 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'musicmarketplace_backend.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default':
+        {
+            'ENGINE': 'djongo',
+            'NAME': 'testdb',
+            'ENFORCE_SCHEMA': False,
+            'CLIENT': {
+                    'host':'mongodb+srv://phonichouse:xZG6KJLSqWXagWCu@phonichouse.ghcriq8.mongodb.net/testdb?retryWrites=true&w=majority'
+            }
+        }
 }
 
 
