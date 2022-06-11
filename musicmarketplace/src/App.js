@@ -12,6 +12,7 @@ import OrderDetailsSecond from "./components/OrderDetails/orderdetailssecond";
 import OrderDetails from "./components/OrderDetails/orderdetails"
 import CongratulationBox from "./components/CongratulationBox/CongratulationsBox"
 import Messages from './pages/Messages/Messages';
+import Login from "./pages/logSign/login";
 
 // import CongratulationBox from './components/CongratulationBox/CongratulationsBox';
 import ConfirmOrder from './components/ConfrimOrder/ConfirmOrder';
@@ -26,6 +27,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/search" element={<Search />} />
             <Route path="/explore" element={<Explore />} />
+            <Route path="/login" element={<Login />} />
             {/* <Route
               path="/ramishPage"
               element={
@@ -45,6 +47,7 @@ function App() {
             <Route path="/placeOrder" element={<OrderDetails />} />
             <Route path="/artistData" element={<OrderDetailsSecond />} />
             <Route path="/congratulationBox" element={<CongratulationBox />} />
+            
           </Routes>
         </div>
       </Router>
