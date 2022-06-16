@@ -22,4 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/listusers', views.list_users),
     path('api/adduser', views.add_user),
+    path('api/listartists', views.list_artists),
+    path('api/addartist', views.add_artist),
 ]

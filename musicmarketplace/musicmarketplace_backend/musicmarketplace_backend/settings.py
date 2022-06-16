@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-AUTH_USER_MODEL = 'musicmarketplace_backend.User'
+AUTH_USER_MODEL = 'musicmarketplace_backend.User', 'musicmarketplace_backend.Artist' #not sure about Artists
 
 # Application definition
 
@@ -79,7 +79,7 @@ DATABASES = {
     'default':
         {
             'ENGINE': 'djongo',
-            'NAME': 'testdb',
+            'NAME': 'User & Artist DB', #changed the name, might need to update the CLIENT URL below
             'ENFORCE_SCHEMA': False,
             'CLIENT': {
                     'host':'mongodb+srv://phonichouse:xZG6KJLSqWXagWCu@phonichouse.ghcriq8.mongodb.net/testdb?retryWrites=true&w=majority'
