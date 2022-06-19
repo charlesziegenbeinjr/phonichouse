@@ -4,7 +4,7 @@ import "./login.css"
 
 export default function Login() {
     return (
-<div>
+<div className='booty'>
             
         {/* <div>
             <TopNavBar />
@@ -12,7 +12,7 @@ export default function Login() {
 
 <div>
     {/* <form action="/Home">  */}
-    <a href = "/">
+    <a href = "/" class='noUnderline'>
 
     <div class = "buttonTwo"> <span>Return</span></div>
     
@@ -23,7 +23,7 @@ export default function Login() {
 
 <div>
 
-    <h1><font color="#FF6B6A">phonic</font><font color="#ffc0bf">house</font></h1>
+    <h1 class="headingg"><font color="#FF6B6A">phonic</font><font color="#ffc0bf">house</font></h1>
 
 </div>
 
@@ -48,14 +48,18 @@ export default function Login() {
 
 <div class="centerTxt">
         
-      <div><font color="#FF6B6A">Haven't registered ?</font></div> <div><a href="/UserOrArtist" target="_blank"><font color="#ffc0bf">Sign up</font></a></div>
+      <font color="#FF6B6A">Haven't registered ? 
+      
+      
+       <a href="/UserOrArtist" target="_blank" class='noUnderline'><font color="#ffc0bf"> Sign up</font></a>
+       </font>
     
 </div>
 
     
 <div>
     {/* <form action="/Home">  */}
-    <a href = "/">
+    <a href = "/" class='noUnderline'>
 
     <div class = "buttonLog"> <span>Log In</span></div>
     

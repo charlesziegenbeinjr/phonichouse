@@ -42,7 +42,7 @@ export default function TopNavBar() {
         <div class="startButton">
         {/* musicmarketplace\src\pages\logSign\login.js
         musicmarketplace\login */}
-          <a href = "/UserOrArtist" class="btn btn3">Start</a>
+          <a href = "/login" class="btn btn3">Start</a>
           
         </div>
 

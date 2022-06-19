@@ -1,4 +1,4 @@
-body{
+#booty{
   
   background-color: #0F123F;
     
@@ -23,13 +23,6 @@ body{
     background-image: url(C:\Users\Karim\Documents\TestGit\phonichouse\nft-app\src\logo.svg);
     display: block
 } */
-  
-
-h2 {
-
-  text-align: center;
-    
-}
 
   
 .centerTxt {
@@ -72,7 +65,7 @@ h2 {
 }
 
 
-h1 {
+.headingg {
   /* position: absolute; */
   /* left: 25.42%;
   right: 25.42%;
@@ -91,7 +84,7 @@ h1 {
   color: #FF6B6A;
   }
 
-  a {
+  .noUnderline {
     text-decoration: none;
   }
 
@@ -196,7 +189,7 @@ h1 {
 
 
 
-
+/* 
 
   .glow-on-hover {
     width: 300px;
@@ -257,4 +250,4 @@ h1 {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
-}
+} */
