@@ -1,6 +1,7 @@
 import React from "react";
 import { IconContext } from "react-icons";
 import { ImSearch } from "react-icons/im";
+import './startBut.css'
 
 export default function TopNavBar() {
 
@@ -36,6 +37,16 @@ export default function TopNavBar() {
             />
           </IconContext.Provider>
         </div>
+
+
+        <div class="startButton">
+        {/* musicmarketplace\src\pages\logSign\login.js
+        musicmarketplace\login */}
+          <a href = "/UserOrArtist" class="btn btn3">Start</a>
+          
+        </div>
+
+
 
         <div style={{ marginLeft: "520px", fontSize: 14, fontWeight: "bold" }}>
           $5,915.73

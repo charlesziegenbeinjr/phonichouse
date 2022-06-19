@@ -12,10 +12,13 @@ import OrderDetailsSecond from "./components/OrderDetails/orderdetailssecond";
 import OrderDetails from "./components/OrderDetails/orderdetails"
 import CongratulationBox from "./components/CongratulationBox/CongratulationsBox"
 import Messages from './pages/Messages/Messages';
-import Login from "./pages/logSign/login";
+import Login from "./pages/logIn/login";
+import UOA from "./pages/UserOrArt/uoa";
+import SignUpUser from "./pages/Signup/signUpUser"
 
 // import CongratulationBox from './components/CongratulationBox/CongratulationsBox';
 import ConfirmOrder from './components/ConfrimOrder/ConfirmOrder';
+
 function App() {
   return (
     <div>
@@ -28,6 +31,8 @@ function App() {
             <Route path="/search" element={<Search />} />
             <Route path="/explore" element={<Explore />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/UserOrArtist" element={<UOA />} />
+            <Route path="/SignUpUser" element={<SignUpUser />} />
             {/* <Route
               path="/ramishPage"
               element={
