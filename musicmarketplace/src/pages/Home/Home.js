@@ -10,7 +10,7 @@ import BasicTable from "../../components/NewListedArtists/NewListedArtists";
 import { Link } from "react-router-dom";
 function Home() {
   return (
-    <>
+    <div class = "backg">
       <TopNavBar />
       <div style={{display: "flex", flex: "row"}}>
       <div>
@@ -103,7 +103,7 @@ function Home() {
       </div>
       </div>
       <SideNavbar />
-    </>
+    </div>
   );
 }
 
