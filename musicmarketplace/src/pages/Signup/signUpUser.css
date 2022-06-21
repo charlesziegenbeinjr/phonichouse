@@ -1,0 +1,142 @@
+.SignUpUserFirstName {
+
+  display: block;
+
+  justify-content: center;
+
+  align-items: center;
+  
+  margin-top: 8%;
+
+  font-size: 20px;
+}
+
+.SignUpUserMiddleName {
+
+  display: inline-block;
+
+  justify-content: center;
+
+  align-items: center;
+  
+  /* margin-top: 8%; */
+
+  font-size: 20px;
+}
+
+.SignUpUserLastName {
+
+  display: inline-block;
+
+  justify-content: center;
+
+  align-items: center;
+  
+  /* margin-top: 8%; */
+
+  font-size: 20px;
+}
+
+.SignUpUserusernname {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  
+  margin-top: 8%;
+
+  font-size: 20px;
+}
+
+.SignUpUserpassword {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  margin-top: 3.5%;
+
+  margin-bottom: 1%;
+  
+  font-size: 20px;
+}
+
+.SignUpUserRepassword {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  margin-top: 2%;
+
+  margin-bottom: 5%;
+  
+  font-size: 20px;
+}
+
+
+  
+.SignUpUsercenterTxt {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  margin-bottom: 6%;
+
+}
+
+.SignUpUsernoUnderline {
+  text-decoration: none;
+}
+
+.SignUpUserButton {
+  border-radius: 7px;
+  background-color: #c36156;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  padding: 7px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  /* margin: 36px; */
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.SignUpUserButton{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  top: 10px;/*WHEN LOGO APPEAR, CHANGE IT*/
+  margin: auto;
+  display:block;
+  transition: 0.5s;
+
+}
+
+.SignUpUserButton:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 5px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.SignUpUserButton:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.SignUpUserButton:hover:after {
+  opacity: 1;
+  right: 110px;
+}

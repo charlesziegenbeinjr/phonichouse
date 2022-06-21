@@ -3,7 +3,7 @@ import "./uoa.css"
 
 export default function UOA() {
     return (
-<div>
+<div class = "uoaback">
 
     <div>
         <h1><font color="red">
@@ -16,38 +16,23 @@ export default function UOA() {
 
     <div class="bothButtons">
 
-    <a href = "/SignUpUser" class ="why why3">Investor</a>
-    <a href = "/SignUpArtist" class ="why why3" style = {{
-       position: "absoulete",
-       left: "200px"
+        <a href = "/SignUpUser" class ="uoabut uoabut3">Investor</a>
+        <a href = "/SignUpArtist" class ="uoabut uoabut3" style = {{
+        position: "absoulete",
+        left: "200px"
         
-    }}>Artist</a>
+        }}>Artist</a>
 
     </div>
 
-    <div>
-    {/* <form action="/Home">  */}
+    
+    
     <a href = "/">
 
-    <div class = "buttonTwoo"> <span>Return</span></div>
+    <div class = "uoabuttonReturn"> <span>Return</span></div>
     
     </a>
-    {/* </form> */}
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 </div>
 

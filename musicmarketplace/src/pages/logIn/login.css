@@ -1,12 +1,7 @@
-#booty{
+/* .booty{
   
   background-color: #0F123F;
-    
-    /* 
-    background: rgb(63,94,251);
-    background: linear-gradient(103deg, rgba(63,94,251,1) 12%, rgba(246,97,127,1) 100%);
-     */
-}
+} */
 
 
 /* styledimg {
@@ -25,7 +20,7 @@
 } */
 
   
-.centerTxt {
+.LogincenterTxt {
 
   display: flex;
 
@@ -37,7 +32,7 @@
 
 }
 
-.usernname {
+.Loginusernname {
 
   display: flex;
 
@@ -50,7 +45,7 @@
   font-size: 20px;
 }
 
-.password {
+.Loginpassword {
   display: flex;
 
   justify-content: center;
@@ -65,7 +60,7 @@
 }
 
 
-.headingg {
+.Loginheadingg {
   /* position: absolute; */
   /* left: 25.42%;
   right: 25.42%;
@@ -84,13 +79,13 @@
   color: #FF6B6A;
   }
 
-  .noUnderline {
+  .LoginnoUnderline {
     text-decoration: none;
   }
 
 
 
-  .buttonLog {
+  .Logbutton {
     border-radius: 7px;
     background-color: #c36156;
     border: none;
@@ -103,9 +98,10 @@
     cursor: pointer;
     /* margin: 36px; */
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+
   }
-  
-  .buttonLog{
+
+  .Logbutton{
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -113,10 +109,10 @@
     margin: auto;
     display:block;
     transition: 0.5s;
-
   }
   
-  .buttonLog:after {
+  
+  .Logbutton:after {
     content: '»';
     position: absolute;
     opacity: 0;  
@@ -125,12 +121,12 @@
     transition: 0.5s;
   }
   
-  .buttonLog:hover{
+  .Logbutton:hover{
     padding-right: 24px;
     padding-left:8px;
   }
   
-  .buttonLog:hover:after {
+  .Logbutton:hover:after {
     opacity: 1;
     right: 110px;
   }
@@ -138,7 +134,7 @@
 
 
 
-  .buttonTwo {
+  .LogbuttonRet {
     border-radius: 7px;
     background-color: #c36156;
     border: none;
@@ -151,9 +147,10 @@
     cursor: pointer;
     /* margin: 36px; */
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+
   }
-  
-  .buttonTwo{
+
+  .LogbuttonRet{
     cursor: pointer;
     display: inline-block;
     position: absolute; 
@@ -162,10 +159,9 @@
     margin:0 auto;
     display:block;
     transition: 0.5s;
-
   }
   
-  .buttonTwo:after {
+  .LogbuttonRet:after {
     content: '«';
     position: absolute;
     opacity: 0;  
@@ -174,12 +170,12 @@
     transition: 0.5s;
   }
   
-  .buttonTwo:hover{
+  .LogbuttonRet:hover{
     padding-left: 14px;
     padding-right: 7px;
   }
   
-  .buttonTwo:hover:after {
+  .LogbuttonRet:hover:after {
     opacity: 1;
     left: 20px;
   }

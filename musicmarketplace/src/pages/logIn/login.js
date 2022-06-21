@@ -1,10 +1,9 @@
 import React from 'react'
-import TopNavBar from "../../components/TopNavbar/TopNavBar";
 import "./login.css"
 
 export default function Login() {
     return (
-<div className='booty'>
+<div class="booty">
             
         {/* <div>
             <TopNavBar />
@@ -14,7 +13,7 @@ export default function Login() {
     {/* <form action="/Home">  */}
     <a href = "/" class='noUnderline'>
 
-    <div class = "buttonTwo"> <span>Return</span></div>
+    <div class = "LogbuttonRet"> <span>Return</span></div>
     
     </a>
     {/* </form> */}
@@ -23,11 +22,11 @@ export default function Login() {
 
 <div>
 
-    <h1 class="headingg"><font color="#FF6B6A">phonic</font><font color="#ffc0bf">house</font></h1>
+    <h1 class="Loginheadingg"><font color="#FF6B6A">phonic</font><font color="#ffc0bf">house</font></h1>
 
 </div>
 
-<div class = "usernname">
+<div class = "Loginusernname">
     <font color="#ffc0bf">
     <label>
     Username: <input type="text" name="name" placeholder="Josh" maxlength="40" required></input>
@@ -37,7 +36,7 @@ export default function Login() {
 </div>
 
 
-<div class = "password">
+<div class = "Loginpassword">
     <font color="#ffc0bf">
     <label>
     Password: <input type="password" password = "password" placeholder="696969" maxlength="40" required></input>
@@ -46,7 +45,7 @@ export default function Login() {
 </div>
        
 
-<div class="centerTxt">
+<div class="LogincenterTxt">
         
       <font color="#FF6B6A">Haven't registered ? 
       
@@ -59,9 +58,9 @@ export default function Login() {
     
 <div>
     {/* <form action="/Home">  */}
-    <a href = "/" class='noUnderline'>
+    <a href = "/" class='LoginnoUnderline'>
 
-    <div class = "buttonLog"> <span>Log In</span></div>
+    <div class = "Logbutton"> <span>Log In</span></div>
     
     </a>
     {/* </form> */}

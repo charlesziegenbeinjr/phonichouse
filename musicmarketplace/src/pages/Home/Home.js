@@ -10,7 +10,7 @@ import BasicTable from "../../components/NewListedArtists/NewListedArtists";
 import { Link } from "react-router-dom";
 function Home() {
   return (
-    <div class = "backg">
+    <div class = "Homeback">
       <TopNavBar />
       <div style={{display: "flex", flex: "row"}}>
       <div>

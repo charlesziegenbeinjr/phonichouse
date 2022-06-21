@@ -1,3 +1,7 @@
+.uoaback{
+  background-color: aqua;
+}
+
 .bothButtons{
     position: absolute;
     top: 50%;
@@ -5,7 +9,7 @@
     transform: translate(-50%,-50%);
 }
 
-.why{
+.uoabut{
     text-align: center;
     position: relative;
     top: 100px;
@@ -23,7 +27,7 @@
     overflow: hidden;
     transition: 1s all ease;
   }
-  .why::before{
+  .uoabut::before{
     background: #ff7675;
     content: "";
     position: absolute;
@@ -34,19 +38,19 @@
     transition: all 0.6s ease;
   }
     
-  .why3::before{
+  .uoabut3::before{
     width: 100%;
     height: 0%;
     transform: translate(-50%,-50%) rotate(45deg);
   }
-  .why3:hover::before{
+  .uoabut3:hover::before{
     height: 380%;
   }
 
 
 
 
-  .buttonTwoo {
+  .uoabuttonReturn {
     border-radius: 7px;
     background-color: #c36156;
     border: none;
@@ -59,10 +63,11 @@
     cursor: pointer;
     /* margin: 36px; */
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+
   }
   
-  .buttonTwoo{
-    cursor: pointer;
+  .uoabuttonReturn{
+     cursor: pointer;
     display: inline-block;
     position: absolute; 
     left: 10px;
@@ -70,10 +75,9 @@
     margin:0 auto;
     display:block;
     transition: 0.5s;
-
   }
   
-  .buttonTwoo:after {
+  .uoabuttonReturn:after {
     content: '«';
     position: absolute;
     opacity: 0;  
@@ -82,12 +86,12 @@
     transition: 0.5s;
   }
   
-  .buttonTwoo:hover{
+  .uoabuttonReturn:hover{
     padding-left: 14px;
     padding-right: 7px;
   }
   
-  .buttonTwoo:hover:after {
+  .uoabuttonReturn:hover:after {
     opacity: 1;
     left: 20px;
   }

@@ -2,6 +2,7 @@ import React from "react";
 import { IconContext } from "react-icons";
 import { ImSearch } from "react-icons/im";
 import './startBut.css'
+import Home from "../../pages/Home/Home";
 
 export default function TopNavBar() {
 
@@ -39,10 +40,8 @@ export default function TopNavBar() {
         </div>
 
 
-        <div class="startButton">
-        {/* musicmarketplace\src\pages\logSign\login.js
-        musicmarketplace\login */}
-          <a href = "/login" class="btn btn3">Start</a>
+        <div class="TopNavstartButton">
+          <a href = "/UserOrArtist" class="TopNavbtn TopNavbtn3">Start</a>
           
         </div>
 

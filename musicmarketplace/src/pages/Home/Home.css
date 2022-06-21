@@ -1,24 +1,23 @@
-.backg{
+.Homeback{
   background-color: #ffff;
 }
 
-.navbar {
+/* .navbar {
   background-color: rgb(239, 239, 239);
   height: 50px;
   display: flex;
-  /* justify-content: flex-start; */
   align-items: center;
   margin-inline-start: 160px;
-  /* text-align: left; */
-}
-#Search-Bar {
+  
+} */
+/* #Search-Bar {
   background-color: #e5e6eb;
   height: 30px;
   width: 300px;
   align-items: center;
   margin-left: 510px;
   border-radius: 20px;
-}
+} */
 /* .menu-bars {
   margin-left: 2rem;
   font-size: 2rem;
@@ -40,7 +39,8 @@
 /* left: 0; */
 /* transition: 350ms; */
 /* } */
-#search {
+
+/* #search {
   border: none;
   background-color: #e5e6eb;
   width: 220px;
@@ -48,7 +48,8 @@
   margin-left: 20px;
   margin-top: 2px;
   font-size: 14px;
-}
+} */
+
 .nav-text {
   display: flex;
   justify-content: start;
