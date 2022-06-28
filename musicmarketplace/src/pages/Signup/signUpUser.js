@@ -3,7 +3,15 @@ import "./signUpUser.css"
 
 export default function SignUpUser() {
     return (
-<div>
+<div class = "SignUpUserBackGround">
+
+    <div>
+        <a href = "/UserOrArtist" class='SignUpUsernoUnderline'>
+
+        <div class = "SignUpUserbuttonRet"> Return</div>
+    
+        </a>
+    </div>
 
 
 <div class = "SignUpUserFirstName">
@@ -15,38 +23,32 @@ export default function SignUpUser() {
     </font>
 
 
-    <font color="#ffc0bf">
-    <label>
-    Middle name: <input type="text" name="name" placeholder="Tyler" maxlength="40" required></input>
-    
-    </label>
-    </font>
-
-
-    <font color="#ffc0bf">
-    <label>
-    Last Name: <input type="text" name="name" placeholder="Tyler" maxlength="40" required></input>
-    
-    </label>
-    </font>
-
-
 </div>
 
-{/* <div class = "SignUpUserMiddleName">
-   
+<div class = "SignUpUserMiddleName">
+<font color="#ffc0bf">
+    <span>
+    Middle name: <input type="text" name="name" placeholder="Meow" maxlength="40" required></input>
+    
+    </span>
+    </font>
 </div>
 
 
-<div class = "SignUpUSerLastName">
-   
-</div> */}
+<div class = "SignUpUserLastName">
+<font color="#ffc0bf">
+    <label>
+    Last Name: <input type="text" name="name" placeholder="Busda" maxlength="40" required></input>
+    
+    </label>
+    </font>
+</div>
 
 
 <div class = "SignUpUserusernname">
     <font color="#ffc0bf">
     <label>
-    Username: <input type="text" name="name" placeholder="Tyler" maxlength="40" required></input>
+    Username: <input type="text" name="name" placeholder="TylerDeTrader" maxlength="40" required></input>
     
     </label>
     </font>
@@ -63,7 +65,7 @@ export default function SignUpUser() {
 <div class = "SignUpUserRepassword">
     <font color="#ffc0bf">
     <label>
-    ReType: Password: <input type="password" password = "password" placeholder="696969" maxlength="40" required></input>
+    ReType: Password: <input type="password" password = "password" placeholder="Re-type password" maxlength="40" required></input>
     </label>
     </font>
 </div>
@@ -73,7 +75,10 @@ export default function SignUpUser() {
       <font color="#FF6B6A">Already have an account ?
       
       
-       <a href="/login" target="_blank" class='noUnderline'><font color="#ffc0bf"> Login</font></a>
+       <a href="/login" class='noUnderline'><font color="#ffc0bf"> Login</font></a>
+       
+       {/* do target="_blank" for opening a new link when clicking login */}
+       
        </font>
     
 </div>

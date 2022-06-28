@@ -3,7 +3,7 @@ import "./uoa.css"
 
 export default function UOA() {
     return (
-<div class = "uoaback">
+    <div class = "uoabackground">
 
     <div>
         <h1><font color="red">
@@ -14,12 +14,36 @@ export default function UOA() {
         </h1>
     </div>
 
-    <div class="bothButtons">
+    <div class = "uoavl"></div>
 
-        <a href = "/SignUpUser" class ="uoabut uoabut3">Investor</a>
+    <div class = "uoaLeftText">
+        <font color = "pink">
+        If you are an investor, you only invest into artists
+        and you do not publish anything.
+        </font>
+    </div>
+
+    <div class = "uoaRightText">
+        <font color = "pink">
+        If you are an artist, you can invest in other's markets,
+        publish music, etc, and you cannot invest in your own market.
+        </font>
+    </div>
+
+    <div class="uoabothButtons">
+
+        <a href = "/SignUpUser" class ="uoabut uoabut3" style = {{
+        position: "absoulete",
+        right: "30vw",
+        top: "20vw"
+        // top: "30vw"
+
+        }}>Investor</a>
+
         <a href = "/SignUpArtist" class ="uoabut uoabut3" style = {{
         position: "absoulete",
-        left: "200px"
+        left: "10vw",
+        top: "20vw"
         
         }}>Artist</a>
 

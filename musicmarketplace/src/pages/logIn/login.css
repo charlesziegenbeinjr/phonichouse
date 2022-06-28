@@ -1,66 +1,61 @@
-/* .booty{
-  
+.LogInBackg{
+  height:100%; 
+  width:100%;
   background-color: #0F123F;
-} */
-
-
-/* styledimg {
-  background-image: url(logotest.jpg);
-  background-repeat: no-repeat;
-  margin: auto;
-  width: 60%;
-  /* height: 200px; */
-  /* display: block;
-  } */ */
-
-/* .imaj {
- 
-    background-image: url(C:\Users\Karim\Documents\TestGit\phonichouse\nft-app\src\logo.svg);
-    display: block
-} */
-
-  
-.LogincenterTxt {
-
-  display: flex;
-
-  justify-content: center;
-
-  align-items: center;
-
-  margin-bottom: 6%;
-
+  position:absolute; 
 }
 
-.Loginusernname {
+.LogInnoUnderline {
+  text-decoration: none;
+}
 
-  display: flex;
-
-  justify-content: center;
-
-  align-items: center;
-  
-  margin-top: 8%;
-
+.LogInbuttonRet {
+  border-radius: 7px;
+  background-color: #c36156;
+  border: none;
+  color: #fff;
+  text-align: center;
   font-size: 20px;
+  padding: 7px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  /* margin: 36px; */
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+
 }
 
-.Loginpassword {
-  display: flex;
-
-  justify-content: center;
-
-  align-items: center;
-
-  margin-top: 3.5%;
-
-  margin-bottom: 5%;
-  
-  font-size: 20px;
+.LogInbuttonRet{
+  cursor: pointer;
+  display: inline-block;
+  position: absolute; 
+  left: 10px;
+  top: 6px; /*HEREEEEE*/
+  margin:0 auto;
+  display:block;
+  transition: 0.5s;
 }
 
+.LogInbuttonRet:after {
+  content: '«';
+  position: absolute;
+  opacity: 0;  
+  top: 5px;
+  left: -20px;
+  transition: 0.5s;
+}
 
-.Loginheadingg {
+.LogInbuttonRet:hover{
+  padding-left: 14px;
+  padding-right: 7px;
+}
+
+.LogInbuttonRet:hover:after {
+  opacity: 1;
+  left: 20px;
+}
+
+.LogInheadingg {
   /* position: absolute; */
   /* left: 25.42%;
   right: 25.42%;
@@ -79,13 +74,47 @@
   color: #FF6B6A;
   }
 
-  .LoginnoUnderline {
-    text-decoration: none;
+  .LogInusernname {
+
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+    
+    margin-top: 8%;
+  
+    font-size: 20px;
+  }
+  
+  .LogInpassword {
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+    margin-top: 3.5%;
+  
+    margin-bottom: 5%;
+    
+    font-size: 20px;
+  }
+
+  .LogIncenterTxt {
+
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+    margin-bottom: 6%;
+  
   }
 
 
-
-  .Logbutton {
+  .LogInbuttonLogin {
     border-radius: 7px;
     background-color: #c36156;
     border: none;
@@ -101,7 +130,7 @@
 
   }
 
-  .Logbutton{
+  .LogInbuttonLogin{
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -112,7 +141,7 @@
   }
   
   
-  .Logbutton:after {
+  .LogInbuttonLogin:after {
     content: '»';
     position: absolute;
     opacity: 0;  
@@ -121,71 +150,18 @@
     transition: 0.5s;
   }
   
-  .Logbutton:hover{
+  .LogInbuttonLogin:hover{
     padding-right: 24px;
     padding-left:8px;
   }
   
-  .Logbutton:hover:after {
+  .LogInbuttonLogin:hover:after {
     opacity: 1;
     right: 110px;
   }
 
 
-
-
-  .LogbuttonRet {
-    border-radius: 7px;
-    background-color: #c36156;
-    border: none;
-    color: #fff;
-    text-align: center;
-    font-size: 20px;
-    padding: 7px;
-    width: 100px;
-    transition: all 0.5s;
-    cursor: pointer;
-    /* margin: 36px; */
-    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
-
-  }
-
-  .LogbuttonRet{
-    cursor: pointer;
-    display: inline-block;
-    position: absolute; 
-    left: 10px;
-    top: 6px; /*HEREEEEE*/
-    margin:0 auto;
-    display:block;
-    transition: 0.5s;
-  }
-  
-  .LogbuttonRet:after {
-    content: '«';
-    position: absolute;
-    opacity: 0;  
-    top: 5px;
-    left: -20px;
-    transition: 0.5s;
-  }
-  
-  .LogbuttonRet:hover{
-    padding-left: 14px;
-    padding-right: 7px;
-  }
-  
-  .LogbuttonRet:hover:after {
-    opacity: 1;
-    left: 20px;
-  }
-
-
-
-
-
-
-/* 
+  /* 
 
   .glow-on-hover {
     width: 300px;
