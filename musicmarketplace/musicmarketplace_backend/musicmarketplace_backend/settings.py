@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-AUTH_USER_MODEL = 'musicmarketplace_backend.User', 'musicmarketplace_backend.Artist' #not sure about Artists
+AUTH_USER_MODEL = 'musicmarketplace_backend.User'
 
 # Application definition
 
@@ -75,18 +75,39 @@ WSGI_APPLICATION = 'musicmarketplace_backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+# DATABASE_APPS_MAPPING = {'account_data': 'account_db','stock_data':'stock_db'}
+
 DATABASES = {
-    'default':
-        {
-            'ENGINE': 'djongo',
-            'NAME': 'User & Artist DB', #changed the name, might need to update the CLIENT URL below
-            'ENFORCE_SCHEMA': False,
-            'CLIENT': {
-                    'host':'mongodb+srv://phonichouse:xZG6KJLSqWXagWCu@phonichouse.ghcriq8.mongodb.net/testdb?retryWrites=true&w=majority'
-            }
-        }
+   'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'mm_data',
+        'USER': 'root',
+        'PASSWORD': 'pass',
+        'HOST': 'localhost',   # change to ip later?
+        'PORT': '',
+   }
+#    },
+#     'account_db':
+#         {
+#             'ENGINE': 'djongo',
+#             'NAME': 'account_data',
+#             'ENFORCE_SCHEMA': False,
+#             'CLIENT': {
+#                     'host':'mongodb+srv://phonichouse:xZG6KJLSqWXagWCu@phonichouse.ghcriq8.mongodb.net/account_data?retryWrites=true&w=majority'
+#             }
+#         },
+#     'stock_db':
+#         {
+#             'ENGINE': 'django.db.backends.mysql',
+#             'NAME': 'stock_data',
+#             'USER': 'root',
+#             'PASSWORD': 'pass',
+#             'HOST': 'localhost',   # change to ip later?
+#             'PORT': '',
+#         }
 }
 
+# DATABASE_ROUTERS = ['musicmarketplace_backend.db_routers.DatabaseRouter']
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators

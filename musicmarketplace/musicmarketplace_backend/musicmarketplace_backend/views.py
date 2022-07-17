@@ -9,10 +9,8 @@ from rest_framework.decorators import api_view
 from .models import User
 from .models import Artist
 
-from .serializers import UserSerializer
+from .serializers import DailyPriceSerializer, SecuritySerializer, UserSerializer
 from .serializers import ArtistSerializer
-
-
 
 # User Views
 
@@ -47,6 +45,28 @@ def list_artists(request):
 def add_artist(request):
     if request.method == 'POST':
         serializer = ArtistSerializer(data=request.data)
+        print(request.data)
+        if serializer.is_valid(True):
+            serializer.save()
+            return Response("test", status.HTTP_200_OK)
+        return Response(serializer.errors, status.HTTP_400_BAD_REQUEST)
+
+# 
+
+@api_view(['POST'])
+def test_new_daily_price(request):
+    if request.method == 'POST':
+        serializer = DailyPriceSerializer(data=request.data)
+        print(request.data)
+        if serializer.is_valid(True):
+            serializer.save()
+            return Response("test", status.HTTP_200_OK)
+        return Response(serializer.errors, status.HTTP_400_BAD_REQUEST)
+        
+@api_view(['POST'])
+def test_new_security(request):
+    if request.method == 'POST':
+        serializer = SecuritySerializer(data=request.data)
         print(request.data)
         if serializer.is_valid(True):
             serializer.save()
